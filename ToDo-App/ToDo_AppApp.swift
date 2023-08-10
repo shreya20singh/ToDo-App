@@ -16,7 +16,7 @@ struct ToDo_AppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            RegisterLoginView()
+            MainView()
         }
     }
 }
