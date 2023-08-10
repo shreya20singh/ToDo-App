@@ -23,7 +23,7 @@ struct TodoListView: View {
             VStack{
                 List(items) { item in
                     Text(item.title)
-                }.listStyle(PlainListStyle())
+                }.listStyle(.plain)
             }
             .navigationTitle("To Do List")
             .toolbar{

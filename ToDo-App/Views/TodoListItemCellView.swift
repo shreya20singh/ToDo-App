@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct TodoListItemCellView: View {
+    let item: TodoListItem
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            VStack(alignment: .leading) {
+                Text(item.title)
+                    .font(.body)
+                Text("\(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
+                    .font(.footnote)
+                    .foregroundColor(Color(.secondaryLabel))
+            }
+            
+            Spacer()
+            
+            Button(action: {
+                
+            },label: {
+                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+            })
+        }
     }
 }
 
 #Preview {
-    TodoListItemCellView()
+    TodoListItemCellView(item: .init(id: "123", title: "LeetCode", dueDate: Date().timeIntervalSince1970, creationDate: Date().timeIntervalSince1970, isDone: true))
 }
