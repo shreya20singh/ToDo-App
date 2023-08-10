@@ -37,6 +37,9 @@
 		8E276CFA2A847F320032446B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CF92A847F320032446B /* MainViewModel.swift */; };
 		8E276CFB2A847F320032446B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CF92A847F320032446B /* MainViewModel.swift */; };
 		8E276CFC2A847F320032446B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CF92A847F320032446B /* MainViewModel.swift */; };
+		8E276CFE2A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
+		8E276CFF2A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
+		8E276D002A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
 		8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */; };
 		8EDDF3242A846A8D004733DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3232A846A8D004733DF /* Assets.xcassets */; };
 		8EDDF3272A846A8D004733DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3262A846A8D004733DF /* Preview Assets.xcassets */; };
@@ -97,6 +100,7 @@
 		8E276CF12A847EEB0032446B /* TodoListItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemCellViewModel.swift; sourceTree = "<group>"; };
 		8E276CF52A847F0F0032446B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8E276CF92A847F320032446B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8E276CFD2A84840E0032446B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8EDDF31C2A846A87004733DF /* ToDo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_AppApp.swift; sourceTree = "<group>"; };
 		8EDDF3232A846A8D004733DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 				8EDDF3692A847C4A004733DF /* RegisterView.swift */,
 				8EDDF36D2A847C8A004733DF /* TodoListItemCellView.swift */,
 				8E276CF52A847F0F0032446B /* MainView.swift */,
+				8E276CFD2A84840E0032446B /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */,
+				8E276CFE2A84840E0032446B /* HeaderView.swift in Sources */,
 				8EDDF35D2A847BAA004733DF /* ProfileView.swift in Sources */,
 				8EDDF3612A847BD6004733DF /* TodoListView.swift in Sources */,
 				8E276CDA2A847E410032446B /* TodoListItem.swift in Sources */,
@@ -413,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDDF34C2A846EA8004733DF /* LoginView.swift in Sources */,
+				8E276CFF2A84840E0032446B /* HeaderView.swift in Sources */,
 				8EDDF35E2A847BAA004733DF /* ProfileView.swift in Sources */,
 				8EDDF3622A847BD6004733DF /* TodoListView.swift in Sources */,
 				8E276CDB2A847E410032446B /* TodoListItem.swift in Sources */,
@@ -442,6 +449,7 @@
 				8E276CE82A847EA40032446B /* TodoListViewModel.swift in Sources */,
 				8E276CE02A847E7A0032446B /* LoginViewModel.swift in Sources */,
 				8EDDF35F2A847BAA004733DF /* ProfileView.swift in Sources */,
+				8E276D002A84840E0032446B /* HeaderView.swift in Sources */,
 				8EDDF33D2A846A8D004733DF /* ToDo_AppUITestsLaunchTests.swift in Sources */,
 				8E276CF42A847EEB0032446B /* TodoListItemCellViewModel.swift in Sources */,
 				8EDDF36C2A847C4A004733DF /* RegisterView.swift in Sources */,
