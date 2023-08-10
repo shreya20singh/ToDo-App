@@ -40,6 +40,9 @@
 		8E276CFE2A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
 		8E276CFF2A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
 		8E276D002A84840E0032446B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CFD2A84840E0032446B /* HeaderView.swift */; };
+		8E276D022A8493100032446B /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D012A8493100032446B /* TDLButton.swift */; };
+		8E276D032A8493100032446B /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D012A8493100032446B /* TDLButton.swift */; };
+		8E276D042A8493100032446B /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D012A8493100032446B /* TDLButton.swift */; };
 		8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */; };
 		8EDDF3242A846A8D004733DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3232A846A8D004733DF /* Assets.xcassets */; };
 		8EDDF3272A846A8D004733DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3262A846A8D004733DF /* Preview Assets.xcassets */; };
@@ -101,6 +104,7 @@
 		8E276CF52A847F0F0032446B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8E276CF92A847F320032446B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		8E276CFD2A84840E0032446B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8E276D012A8493100032446B /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
 		8EDDF31C2A846A87004733DF /* ToDo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_AppApp.swift; sourceTree = "<group>"; };
 		8EDDF3232A846A8D004733DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 				8EDDF36D2A847C8A004733DF /* TodoListItemCellView.swift */,
 				8E276CF52A847F0F0032446B /* MainView.swift */,
 				8E276CFD2A84840E0032446B /* HeaderView.swift */,
+				8E276D012A8493100032446B /* TDLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				8EDDF3612A847BD6004733DF /* TodoListView.swift in Sources */,
 				8E276CDA2A847E410032446B /* TodoListItem.swift in Sources */,
 				8E276CE62A847EA40032446B /* TodoListViewModel.swift in Sources */,
+				8E276D022A8493100032446B /* TDLButton.swift in Sources */,
 				8EDDF36A2A847C4A004733DF /* RegisterView.swift in Sources */,
 				8E276CF22A847EEB0032446B /* TodoListItemCellViewModel.swift in Sources */,
 				8E276CD62A847E290032446B /* User.swift in Sources */,
@@ -424,6 +430,7 @@
 				8EDDF3622A847BD6004733DF /* TodoListView.swift in Sources */,
 				8E276CDB2A847E410032446B /* TodoListItem.swift in Sources */,
 				8E276CE72A847EA40032446B /* TodoListViewModel.swift in Sources */,
+				8E276D032A8493100032446B /* TDLButton.swift in Sources */,
 				8EDDF36B2A847C4A004733DF /* RegisterView.swift in Sources */,
 				8E276CF32A847EEB0032446B /* TodoListItemCellViewModel.swift in Sources */,
 				8E276CD72A847E290032446B /* User.swift in Sources */,
@@ -453,6 +460,7 @@
 				8EDDF33D2A846A8D004733DF /* ToDo_AppUITestsLaunchTests.swift in Sources */,
 				8E276CF42A847EEB0032446B /* TodoListItemCellViewModel.swift in Sources */,
 				8EDDF36C2A847C4A004733DF /* RegisterView.swift in Sources */,
+				8E276D042A8493100032446B /* TDLButton.swift in Sources */,
 				8E276CE42A847E880032446B /* ProfileViewModel.swift in Sources */,
 				8E276CEC2A847EB50032446B /* NewItemViewModel.swift in Sources */,
 				8E276CF82A847F0F0032446B /* MainView.swift in Sources */,
