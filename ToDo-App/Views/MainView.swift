@@ -14,20 +14,25 @@ struct MainView: View {
     }
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty{
-            TabView{
-                TodoListView()
-                    .tabItem {
-                        Label("Home", systemImage: "house")
-                    }
-                ProfileView()
-                    .tabItem {
-                        Label("Profile", systemImage: "person")
-                    }
-            }
-            .accentColor((Color(red: 0.000, green: 0.118, blue: 0.220, opacity: 1.000)))
+            accountView
         } else {
             LoginView()
         }
+    }
+    
+    @ViewBuilder
+    var accountView: some View{
+         TabView{
+            TodoListView(userId: viewModel.currentUserId)
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person")
+                }
+        }
+        .accentColor((Color(red: 0.000, green: 0.118, blue: 0.220, opacity: 1.000)))
     }
 }
 
