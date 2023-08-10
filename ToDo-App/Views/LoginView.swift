@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RegisterLoginView: View {
+struct LoginView: View {
     var body: some View {
         NavigationView{
             
@@ -16,5 +16,5 @@ struct RegisterLoginView: View {
 }
 
 #Preview {
-    RegisterLoginView()
+    LoginView()
 }
