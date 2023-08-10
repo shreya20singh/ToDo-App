@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E276CD62A847E290032446B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD52A847E290032446B /* User.swift */; };
+		8E276CD72A847E290032446B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD52A847E290032446B /* User.swift */; };
+		8E276CD82A847E290032446B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD52A847E290032446B /* User.swift */; };
+		8E276CDA2A847E410032446B /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD92A847E410032446B /* TodoListItem.swift */; };
+		8E276CDB2A847E410032446B /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD92A847E410032446B /* TodoListItem.swift */; };
+		8E276CDC2A847E410032446B /* TodoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276CD92A847E410032446B /* TodoListItem.swift */; };
 		8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */; };
 		8EDDF3242A846A8D004733DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3232A846A8D004733DF /* Assets.xcassets */; };
 		8EDDF3272A846A8D004733DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3262A846A8D004733DF /* Preview Assets.xcassets */; };
@@ -57,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E276CD52A847E290032446B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E276CD92A847E410032446B /* TodoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItem.swift; sourceTree = "<group>"; };
 		8EDDF31C2A846A87004733DF /* ToDo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_AppApp.swift; sourceTree = "<group>"; };
 		8EDDF3232A846A8D004733DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -185,6 +193,8 @@
 		8EDDF35A2A847AEC004733DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8E276CD52A847E290032446B /* User.swift */,
+				8E276CD92A847E410032446B /* TodoListItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -341,7 +351,9 @@
 				8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */,
 				8EDDF35D2A847BAA004733DF /* ProfileView.swift in Sources */,
 				8EDDF3612A847BD6004733DF /* TodoListView.swift in Sources */,
+				8E276CDA2A847E410032446B /* TodoListItem.swift in Sources */,
 				8EDDF36A2A847C4A004733DF /* RegisterView.swift in Sources */,
+				8E276CD62A847E290032446B /* User.swift in Sources */,
 				8EDDF34B2A846EA8004733DF /* LoginView.swift in Sources */,
 				8EDDF36E2A847C8A004733DF /* TodoListItemCallView.swift in Sources */,
 				8EDDF3662A847C0B004733DF /* NewItemView.swift in Sources */,
@@ -355,7 +367,9 @@
 				8EDDF34C2A846EA8004733DF /* LoginView.swift in Sources */,
 				8EDDF35E2A847BAA004733DF /* ProfileView.swift in Sources */,
 				8EDDF3622A847BD6004733DF /* TodoListView.swift in Sources */,
+				8E276CDB2A847E410032446B /* TodoListItem.swift in Sources */,
 				8EDDF36B2A847C4A004733DF /* RegisterView.swift in Sources */,
+				8E276CD72A847E290032446B /* User.swift in Sources */,
 				8EDDF3312A846A8D004733DF /* ToDo_AppTests.swift in Sources */,
 				8EDDF36F2A847C8A004733DF /* TodoListItemCallView.swift in Sources */,
 				8EDDF3672A847C0B004733DF /* NewItemView.swift in Sources */,
@@ -366,11 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E276CDC2A847E410032446B /* TodoListItem.swift in Sources */,
 				8EDDF3682A847C0B004733DF /* NewItemView.swift in Sources */,
 				8EDDF35F2A847BAA004733DF /* ProfileView.swift in Sources */,
 				8EDDF33D2A846A8D004733DF /* ToDo_AppUITestsLaunchTests.swift in Sources */,
 				8EDDF36C2A847C4A004733DF /* RegisterView.swift in Sources */,
 				8EDDF3632A847BD6004733DF /* TodoListView.swift in Sources */,
+				8E276CD82A847E290032446B /* User.swift in Sources */,
 				8EDDF3702A847C8A004733DF /* TodoListItemCallView.swift in Sources */,
 				8EDDF33B2A846A8D004733DF /* ToDo_AppUITests.swift in Sources */,
 				8EDDF34D2A846EA8004733DF /* LoginView.swift in Sources */,
