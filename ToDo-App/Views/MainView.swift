@@ -10,7 +10,7 @@ import SwiftUI
 struct MainView: View {
     @StateObject var viewModel = MainViewModel()
     init(){
-        UITabBar.appearance().unselectedItemTintColor = UIColor(Color(red: 0.776, green: 0.804, blue: 0.843, opacity: 1.000))
+        UITabBar.appearance().unselectedItemTintColor = UIColor(.secondary)
     }
     var body: some View {
         if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty{
@@ -32,7 +32,7 @@ struct MainView: View {
                     Label("Profile", systemImage: "person")
                 }
         }
-        .accentColor((Color(red: 0.000, green: 0.118, blue: 0.220, opacity: 1.000)))
+         .accentColor(.primary)
     }
 }
 
