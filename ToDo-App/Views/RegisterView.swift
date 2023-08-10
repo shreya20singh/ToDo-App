@@ -16,6 +16,10 @@ struct RegisterView: View {
             
             //Form
             Form{
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundColor(Color.red)
+                }
                 TextField("Full Name", text: $viewModel.name)
                     .textFieldStyle(DefaultTextFieldStyle())
                     .autocorrectionDisabled()
@@ -26,7 +30,7 @@ struct RegisterView: View {
                 SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
                 TDLButton(title: "Create Account", backgroundColor: Color(red: 0.000, green: 0.118, blue: 0.220, opacity: 1.000), action: {
-                    //Register Action
+                    viewModel.register()
                 })
             }.offset(y: -50)
             
