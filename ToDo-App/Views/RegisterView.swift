@@ -29,6 +29,8 @@ struct RegisterView: View {
                     .autocorrectionDisabled()
                 SecureField("Password", text: $viewModel.password)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
+                    .autocorrectionDisabled()
                 TDLButton(title: "Create Account", backgroundColor: Color(red: 0.000, green: 0.118, blue: 0.220, opacity: 1.000), action: {
                     viewModel.register()
                 })

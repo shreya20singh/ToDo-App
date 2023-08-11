@@ -9,7 +9,7 @@ import SwiftUI
 import FirebaseFirestoreSwift
 
 struct TodoListView: View {
-    @StateObject var viewModel = TodoListViewModel()
+    @StateObject var viewModel: TodoListViewModel
     @FirestoreQuery var items: [TodoListItem]
     private let userId: String
     
@@ -17,13 +17,23 @@ struct TodoListView: View {
         self.userId = userId
         //users/<id>/todos/<entries>
         self._items = FirestoreQuery(collectionPath: "users/\(userId)/todos")
+        self._viewModel = StateObject(
+            wrappedValue: TodoListViewModel(userId: userId)
+        )
     }
     var body: some View {
         NavigationView{
             VStack{
                 List(items) { item in
-                    Text(item.title)
-                }.listStyle(.plain)
+                    TodoListItemCellView(item: item)
+                        .swipeActions{
+                            Button(action: {
+                                viewModel.delete(itemId: item.id)
+                            }, label: {
+                                Image(systemName: "xmark.bin.fill")
+                            }).tint(.red)
+                        }
+                }.listStyle(PlainListStyle())
             }
             .navigationTitle("To Do List")
             .toolbar{

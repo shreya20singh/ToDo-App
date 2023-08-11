@@ -46,6 +46,7 @@
 		8E276D062A84A9CE0032446B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D052A84A9CE0032446B /* Extensions.swift */; };
 		8E276D072A84A9CE0032446B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D052A84A9CE0032446B /* Extensions.swift */; };
 		8E276D082A84A9CE0032446B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E276D052A84A9CE0032446B /* Extensions.swift */; };
+		8E276D0A2A85B03D0032446B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E276D092A85B03D0032446B /* Launch Screen.storyboard */; };
 		8EDDF3202A846A87004733DF /* ToDo_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */; };
 		8EDDF3242A846A8D004733DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3232A846A8D004733DF /* Assets.xcassets */; };
 		8EDDF3272A846A8D004733DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDDF3262A846A8D004733DF /* Preview Assets.xcassets */; };
@@ -109,6 +110,7 @@
 		8E276CFD2A84840E0032446B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8E276D012A8493100032446B /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
 		8E276D052A84A9CE0032446B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E276D092A85B03D0032446B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8EDDF31C2A846A87004733DF /* ToDo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDDF31F2A846A87004733DF /* ToDo_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_AppApp.swift; sourceTree = "<group>"; };
 		8EDDF3232A846A8D004733DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				8EDDF3232A846A8D004733DF /* Assets.xcassets */,
+				8E276D092A85B03D0032446B /* Launch Screen.storyboard */,
 				8EDDF3552A847742004733DF /* GoogleService-Info.plist */,
 				8E276D052A84A9CE0032446B /* Extensions.swift */,
 			);
@@ -376,6 +379,7 @@
 			files = (
 				8EDDF3272A846A8D004733DF /* Preview Assets.xcassets in Resources */,
 				8EDDF3242A846A8D004733DF /* Assets.xcassets in Resources */,
+				8E276D0A2A85B03D0032446B /* Launch Screen.storyboard in Resources */,
 				8EDDF3562A847742004733DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,7 +634,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -658,7 +664,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

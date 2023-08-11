@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TodoListItemCellView: View {
+    @StateObject var viewModel = TodoListItemCellViewModel()
     let item: TodoListItem
     var body: some View {
         HStack{
@@ -22,7 +23,7 @@ struct TodoListItemCellView: View {
             Spacer()
             
             Button(action: {
-                
+                viewModel.toggleIsDone(item: item)
             },label: {
                 Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
             })
