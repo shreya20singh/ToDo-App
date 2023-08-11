@@ -2,11 +2,10 @@
 A ToDo app made using Swift UI, MVVM architecture using FireBase.
 
 Screens:
-![Screenshot 2023-08-10 at 20 00 41](https://github.com/shreya20singh/ToDo-App/assets/23652464/4d64df8a-ca0a-4152-a5f5-b60b0e77b228)
-![Screenshot 2023-08-10 at 20 00 17](https://github.com/shreya20singh/ToDo-App/assets/23652464/d44530ad-8a47-4847-822d-87a59bb65d78)
-![Screenshot 2023-08-10 at 20 03 29](https://github.com/shreya20singh/ToDo-App/assets/23652464/2e684013-e36a-47d3-b13e-fef64e91499e)
-![Screenshot 2023-08-10 at 20 01 27](https://github.com/shreya20singh/ToDo-App/assets/23652464/1c33210d-4639-41cc-a01e-e2754c684075)
-![Screenshot 2023-08-10 at 20 03 42](https://github.com/shreya20singh/ToDo-App/assets/23652464/aef76c32-0268-4e01-880e-1ef3e711caed)
-![Screenshot 2023-08-10 at 20 03 58](https://github.com/shreya20singh/ToDo-App/assets/23652464/f86eca81-08a8-4d3c-8335-129a4f333b0e)
-
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/50cd5d71-891e-4861-bbfd-8957271978b2)
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/e27f1a8e-e49d-4ac4-93a1-fe4b6d6873c0)
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/8bb308f2-c5e5-469d-b31f-7ca123011aca)
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/74df889d-3d82-4cf6-bd20-177f818c3705)
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/9c8c3a82-039e-4593-af42-c298d597ff5a)
+![image](https://github.com/shreya20singh/ToDo-App/assets/23652464/c2a22c4c-0095-4d78-8fb6-32794f77ed26)
 
